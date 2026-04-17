@@ -1,0 +1,46 @@
+baseURL = "https://yourblog.github.io/"
+languageCode = "ko-KR"
+title = "Dev.log"
+theme = "terminal" # 추후 테마 교체 가능
+
+[params]
+  author = "Tachyon18"
+  description = "언리얼 / 유니티 개발 기록"
+  showReadingTime = true
+  showDate = true
+  colorTheme = "dark"
+
+  showAllPostsOnHomePage = true
+  showMenuItems = 4
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
+[menu]
+  [[menu.main]]
+    name = "Unreal"
+    url = "/unreal/"
+    weight = 1
+  [[menu.main]]
+    name = "Unity"
+    url = "/unity/"
+    weight = 2
+  [[menu.main]]
+    name = "Project Logs"
+    url = "/project-logs/"
+    weight = 3
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[markup]
+  [markup.highlight]
+    style = "monokai"         # 코드 하이라이트 테마
+    lineNos = true
+    lineNumbersInTable = true
+    tabWidth = 4
+  [markup.goldmark.renderer]
+    unsafe = true             # HTML in Markdown 허용
