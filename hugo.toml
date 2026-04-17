@@ -1,4 +1,4 @@
-baseURL = "https://yourblog.github.io/"
+baseURL = "https://tycheon18.github.io/Tachyon18.github.io/"
 languageCode = "ko-KR"
 title = "Dev.log"
 theme = "terminal" # 추후 테마 교체 가능
